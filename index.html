@@ -124,6 +124,20 @@ a:hover {
   box-shadow: 0 0 20px #00eaff80;
   animation: fadeIn 1.5s ease;
 }    
+
+.duas-imagens {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.duas-imagens img {
+  width: 48%;          /* duas imagens lado a lado */
+  border-radius: 10px;
+  border: 2px solid #00eaff;
+  box-shadow: 0 0 15px #00eaff80;
+}    
 ```
 
   </style>
@@ -176,9 +190,10 @@ a:hover {
      <p> O Mirante Arno Dieckel em Porto União, conhecido pelo nome de ‘Mirante’, foi construído em toras de eucalipto e oferece uma vista panorâmica da cidade e do Rio Iguaçu. Sua história está ligada ao Complexo Turístico do Morro da Cruz, local de peregrinação de fiéis por sua crença de que o monge João Maria previu uma enchente em 1983, confirmando o poder de suas profecias. O complexo também conta com a chaminé preservada da antiga cerâmica Passos, que hoje integra a Praça do Centenário.</p> 
      <p> O projeto “Mirante do Futuro” apresenta uma proposta inovadora de valorização histórica e ambiental da cidade de Porto União — SC, por meio de uma maquete e este portal digital acessível via QR Code. Inspirado na visão de um mirante totalmente construído em vidro, o trabalho convida o visitante a imaginar como seriam os pontos turísticos da cidade no ano de 2050, em harmonia com a sustentabilidade e a tecnologia. </p>
      <p>Com este projeto, os alunos demonstram como a inovação pode caminhar junto com a memória e o respeito à natureza, transformando o mirante em um símbolo do equilíbrio entre o passado, o presente e o futuro.</p>
-   <div class="foto-container">
-    <img src="img/mirante2025.jpg" alt="Mirante em 2025">
-  </div>
+  <div class="grid-imagens">
+  <img src="img/mirante2025.jpg" alt="Mirante 2025">
+  <img src="img/mirante2050.jpg" alt="Mirante 2050">
+</div>
    </section>
 
   <section class="fade-in" style="animation-delay: 1.0s;">
@@ -217,6 +232,7 @@ a:hover {
 
 </body>
 </html>
+
 
 
 
